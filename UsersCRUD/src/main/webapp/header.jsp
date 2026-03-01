@@ -25,28 +25,6 @@
 
 </head>
 
-<style>
-  .text-link {
-    color: #4e73df;
-    font-weight: 500;
-  }
-
-  /* Tabela z liniami tylko poziomymi */
-  .table-borderless th,
-  .table-borderless td {
-    border-top: 1px solid #dee2e6;
-    border-bottom: 1px solid #dee2e6;
-    border-left: 0;
-    border-right: 0;
-  }
-
-  /* Usuń tło nagłówków */
-  .table-borderless thead th {
-    background-color: transparent;
-    font-weight: bold;
-  }
-</style>
-
 <body id="page-top">
 
 <!-- Page Wrapper -->
@@ -56,7 +34,7 @@
   <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="repo_Arek/index.jsp">
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="list">
       <div class="sidebar-brand-icon rotate-n-15">
         <i class="fas fa-laugh-wink"></i>
       </div>
@@ -68,7 +46,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-      <a class="nav-link" href="repo_Arek/index.jsp">
+      <a class="nav-link" href="list">
         <i class="fas fa-fw fa-tachometer-alt"></i>
         <span>Dashboard</span></a>
     </li>
@@ -82,22 +60,5 @@
     <div id="content">
 
       <!-- Topbar -->
-      <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
-        <!-- Sidebar Toggle (Topbar) -->
-        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-          <i class="fa fa-bars"></i>
-        </button>
-
-      </nav>
+      <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow"></nav>
       <!-- End of Topbar -->
-
-      <!-- Begin Page Content -->
-      <div class="container-fluid">
-
-        <!-- Page Heading -->
-        <div class="d-sm-flex align-items-center justify-content-between mb-4">
-          <h1 class="h3 mb-0 text-gray-800">UsersCRUD</h1>
-          <a href="/add" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                  class="fas fa-plus fa-sm text-white-50"></i> Dodaj użytkownika </a>
-        </div>
